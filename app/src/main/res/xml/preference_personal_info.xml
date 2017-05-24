@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <learn.zhu.com.personalassistant.preference.AvatarPreference
+                        android:title="头像"
+                        android:key="pref_avatar" />
+    <Preference android:title="用户名"
+                        android:key="pref_user_name"
+                        android:summary="无" />
+    <EditTextPreference android:title="年龄"
+                        android:key="pref_age"
+                        android:summary="0" />
+    <EditTextPreference android:title="邮箱"
+                        android:key="pref_email"
+                        android:summary="未设置" />
+    <ListPreference android:title="性别"
+                        android:key="pref_sex"
+                        android:entryValues="@array/sex_value"
+                        android:entries="@array/sex"
+                        android:summary="未设置" />
+    <EditTextPreference android:title="出生日期"
+                        android:key="pref_born_date"
+                        android:summary="未设置" />
+    <EditTextPreference android:title="所在地"
+                        android:key="pref_location"
+                        android:summary="未设置" />
+</PreferenceScreen>

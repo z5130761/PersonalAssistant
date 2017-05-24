@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PersonalAssistant</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="user_name">pref_user_name</string>
+    <string name="age">pref_age</string>
+    <string name="sex">pref_sex</string>
+    <string name="born_date">pref_born_date</string>
+    <string name="location">pref_location</string>
+    <string name="password">pref_password</string>
+    <string name="lock">pref_lock</string>
+    <string name="total_money">pref_total_money</string>
+    <string name="email">pref_email</string>
+    <string name="login">pref_login</string>
+    <string name="avatar">pref_avatar</string>
+</resources>

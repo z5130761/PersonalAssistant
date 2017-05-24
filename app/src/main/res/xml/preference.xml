@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="个人信息">
+
+        <Preference android:title="修改个人信息" >
+            <intent android:targetClass="learn.zhu.com.personalassistant.activity.PersonInfoActivity"
+                    android:targetPackage="learn.zhu.com.personalassistant"/>
+        </Preference>
+        <Preference android:title="备份"
+            android:key="pref_backup"/>
+        <Preference android:title="还原"
+            android:key="pref_restore"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="启动设置">
+        <SwitchPreference android:title="密码锁"
+                          android:key="pref_lock"
+                          android:defaultValue="false"/>
+        <EditTextPreference android:title="登录密码"
+                            android:summary="默认密码为123456"
+                            android:defaultValue="123456"
+                            android:key="pref_password"
+                            android:enabled="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>
